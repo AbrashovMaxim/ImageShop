@@ -1,0 +1,39 @@
+#HeadLabel {
+    -fx-font-size: 25px;
+}
+
+Label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+ZoomScroll {
+    -fx-background: rgb(150,150,150);
+}
+
+ImageView {
+    -fx-min-width: 50;
+}
+
+Slider {
+    -fx-font-size: 10px;
+}
+
+Button {
+    -fx-font-size: 15px;
+    -fx-border-width: 0;
+    -fx-background-color: #5b5b5b;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5 20 5 20;
+    -fx-text-alignment: center;
+    -fx-cursor: hand;
+    -fx-spacing: 20px;
+}
+
+Button:hover {
+    -fx-background-color: #777777;
+}
+
+CheckBox {
+    -fx-font-size: 10px;
+}
